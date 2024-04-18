@@ -1,7 +1,5 @@
 #ifndef RECCHECK
-// For debugging
 #include <iostream>
-// For std::remove
 #include <algorithm> 
 #include <map>
 #include <set>
@@ -13,7 +11,6 @@
 using namespace std;
 
 
-// Add prototypes of helper functions here
 void wordleHelper(std::string partial,
     std::string floating,
     const std::set<std::string>& dict,
@@ -22,15 +19,11 @@ void wordleHelper(std::string partial,
 
 int countUnderscores(const std::string& str);
 
-// bool contains(std::string partial, const std::string& floating, unsigned int index);
-
-// Definition of primary wordle function
 std::set<std::string> wordle(
     const std::string& in,
     const std::string& floating,
     const std::set<std::string>& dict)
 {
-    // Add your code here
     std::set<std::string> result;
     std::string partial = in;
 
@@ -41,7 +34,6 @@ std::set<std::string> wordle(
 }
 
 
-// Define any helper functions here
 void wordleHelper(std::string partial,
     std::string floating,
     const std::set<std::string>& dict,
