@@ -1,6 +1,3 @@
-// main() program to test your schedule function.
-// Feel free to modify this program in any way you need for testing.
-// It will not be graded. 
 #include <set>
 #include <iostream>
 #include <fstream>
@@ -16,7 +13,6 @@ void printSchedule(const DailySchedule& sched);
 
 int main()
 {
-    // Replace the matrix below with your test case
     AvailabilityMatrix avail = { 
         {1, 1, 1, 1},
         {1, 0, 1, 0},
