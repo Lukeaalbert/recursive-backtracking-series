@@ -6,7 +6,6 @@
 #include <vector>
 #include <map>
 #include <algorithm>
-// add or remove necessary headers as you please
 #include <limits.h>
 
 #endif
@@ -14,14 +13,9 @@
 #include "schedwork.h"
 
 using namespace std;
-
-// a constant that can be used to indicate an INVALID 
-// worker ID if that is useful to your implementation.
-// Feel free to not use or delete.
 static const Worker_T INVALID_ID = (unsigned int)-1;
 
 
-// Add prototypes for any helper functions here
 bool scheduleHelper (
     const AvailabilityMatrix& avail,
     const size_t dailyNeed,
@@ -31,8 +25,6 @@ bool scheduleHelper (
     size_t currWorker,
     size_t workersScheduled,
     size_t workerLoopHelp);
-
-// Add your implementation of schedule() and other helper functions here
 
 bool schedule(
     const AvailabilityMatrix& avail,
@@ -45,7 +37,6 @@ bool schedule(
         return false;
     }
     sched.clear();
-    // Add your code below
 
     if (avail[0].size() < dailyNeed) //if the number of k possible workers is less than the d daily needed, no way to create a valid schedule
     {
