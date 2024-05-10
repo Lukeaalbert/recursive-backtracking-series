@@ -1,3 +1,3 @@
 # recursive-backtracking-series
 
-Welcome to my recursive backtracking series! This repo contains projects which were a product of my fascination with the beauty of  recursive backtracking. Each folder has a mini recursive backtracking project. Enjoy! 
+Welcome to my recursive backtracking series! This repo contains a handful of different projects which were a byproduct of my fascination with the beauty of recursive backtracking. Each folder contains its own mini project. Enjoy! 
